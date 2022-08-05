@@ -37,7 +37,6 @@ html {
 }
 
 body {
-  
   font-size: 16px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -150,9 +149,40 @@ h1 {
 .courses {
   display: grid;
   grid-template-columns: 1fr;
-  /* padding: 0px 20px; */
   width: 90%;
   margin: 0 auto;
+}
+
+.course-course::before {
+  display: block;
+  position: relative;
+  content: "";
+  top: -47px;
+  left: 0px;
+  height: 56px;
+  width: 56px;
+  background-repeat: no-repeat;
+  margin-bottom: -25px;
+}
+
+.course-animation::before {
+  background-image: url(/Silled-e-learning-Page/resources/icon-animation.svg);
+}
+
+.course-design::before {
+  background-image: url(/Silled-e-learning-Page/resources/icon-design.svg);
+}
+
+.course-photography::before {
+  background-image: url(/Silled-e-learning-Page/resources/icon-photography.svg);
+}
+
+.course-crypto::before {
+  background-image: url(/Silled-e-learning-Page/resources/icon-crypto.svg);
+}
+
+.course-business::before {
+  background-image: url(/Silled-e-learning-Page/resources/icon-business.svg);
 }
 
 .courses div {
@@ -165,13 +195,14 @@ h1 {
   background-color: white;
 }
 
-.courses h3,
+
 .courses p {
   margin-top: 15px;
 }
 
 .courses :not(.check-out) p {
   color: var(--colors-silver);
+  
 }
 
 .courses h3 {
@@ -180,6 +211,7 @@ h1 {
 
 .courses h3:nth-last-child(1) {
   color: #f74780;
+  margin-top: 15px;
 }
 
 .courses img {
@@ -270,7 +302,6 @@ footer img {
 }
 
 @media screen and (min-width: 970px) {
-
   header {
     max-width: 750px;
   }
