@@ -38,7 +38,7 @@ Mobile version
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Silled-e-learning-Page.git)
-- Live Site URL: [GitHub Pages Live URL](https://alexandrustefangherhes.github.io/Stats-Preview-Project)
+- Live Site URL: [GitHub Pages Live URL](https://alexandrustefangherhes.github.io/Silled-e-learning-Page/)
 
 ## My process
 
