@@ -25,15 +25,15 @@ Users should be able to:
 
 Desktop version
 
-![desktop version](/Silled-e-learning-Page/ss/desktop.png)
+![desktop version](Silled-e-learning-Page/ss/desktop.png)
 
 Tablet version
 
-![desktop version](/Silled-e-learning-Page/ss/tablet.png)
+![desktop version](Silled-e-learning-Page/ss/tablet.png)
 
 Mobile version
 
-![mobile version](/Silled-e-learning-Page/ss/mobile.png)
+![mobile version](Silled-e-learning-Page/ss/mobile.png)
 
 ### Links
 
