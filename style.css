@@ -53,13 +53,14 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0px;
+  padding: 20px 20px;
   align-items: center;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 header img {
   align-self: center;
+  width:30%;
 }
 
 .header-btn:hover {
@@ -77,6 +78,7 @@ header img {
   color: var(--colors-white);
   background-color: var(--colors-yankees-blue);
 }
+
 
 a {
   text-decoration: none;
@@ -102,7 +104,7 @@ a:hover {
 .main {
   background-color: transparent;
   margin-top: 20px;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   width: 90%;
   margin: 0 auto;
 }
@@ -222,15 +224,17 @@ footer {
   background-color: #13183f;
   display: flex;
   align-items: center;
-  width:85%;
+  /* width:80%; */
+  padding:0px 20px;
   height: 100px;
   margin-top: 40px;
   justify-content: space-between;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 footer img {
   align-self: center;
+  width:30%;
 }
 
 .footer-btn {
@@ -244,8 +248,13 @@ footer img {
 
 @media screen and (min-width: 550px) {
   header {
-    width: 85%;
+    /* width: 85%; */
     max-width: 650px;
+    padding:20px 0px;
+  }
+
+  header img{
+    width:15%;
   }
   .courses {
     grid-template-columns: 1fr 1fr;
@@ -257,14 +266,15 @@ footer img {
     display: flex;
     max-height: 500px;
     overflow: hidden;
+    width:650px;
     max-width: 650px;
   }
 
   .main img {
     width: 200%;
     position: relative;
-    left: -10px;
-    transform: translateY(-205px);
+    left: -35px;
+    transform: translateY(-165px);
     /* object-fit: contain; */
   }
 
@@ -295,12 +305,20 @@ footer img {
     margin: 0 auto;
     min-width: 650px;
     max-width: 650px;
+    padding:0px 0px;
+  }
+  footer img{
+    width:15%;
   }
 }
 
 @media screen and (min-width: 970px) {
   header {
     max-width: 750px;
+    padding:20px 0px;
+  }
+  header img{
+    width:15%;
   }
   .wrapper {
     min-height: 100vh;
@@ -332,6 +350,7 @@ footer img {
   }
 
   .main {
+    width:750px;
     max-width: 750px;
     padding: 0px;
   }
@@ -343,7 +362,7 @@ footer img {
   .main img {
     width: 200%;
     position: relative;
-    left: -35px;
+    left: -25px;
     transform: translateY(-185px);
     /* object-fit: contain; */
   }
@@ -358,5 +377,9 @@ footer img {
     margin: 0 auto;
     min-width: 750px;
     max-width: 750px;
+  }
+
+  .footer img{
+    width:15%;
   }
 }
