@@ -105,7 +105,6 @@ a:hover {
   padding: 0px 20px;
   width: 90%;
   margin: 0 auto;
-  /* max-width: 350px; */
 }
 
 .main p {
@@ -117,11 +116,6 @@ a:hover {
   margin-top: 40px;
   margin-bottom: -20px;
   width: 100%;
-  /* position: relative;
-  object-fit: contain;
-  top:0;
-  transform: translateX(-40px);
-  height: 100%; */
 }
 
 h1 {
@@ -151,6 +145,11 @@ h1 {
   grid-template-columns: 1fr;
   width: 90%;
   margin: 0 auto;
+}
+
+.course-course p {
+  min-height: 100px;
+  max-height: 150px;
 }
 
 .course-course::before {
@@ -187,14 +186,11 @@ h1 {
 
 .courses div {
   margin-top: 40px;
-  /* min-height: 150px;
-  max-height: 300px;*/
   max-width: 350px;
   padding: 20px 20px;
   border-radius: 10px;
   background-color: white;
 }
-
 
 .courses p {
   margin-top: 15px;
@@ -202,7 +198,6 @@ h1 {
 
 .courses :not(.check-out) p {
   color: var(--colors-silver);
-  
 }
 
 .courses h3 {
@@ -219,16 +214,17 @@ h1 {
 }
 
 footer {
-  display: flex;
   background-color: #13183f;
-  align-items: center;
   margin-top: 40px;
-  height: 100px;
-  margin-bottom: 0px;
 }
 
 .footer {
+  background-color: #13183f;
   display: flex;
+  align-items: center;
+  width:85%;
+  height: 100px;
+  margin-top: 40px;
   justify-content: space-between;
   margin: 0 auto;
 }
@@ -293,6 +289,7 @@ footer img {
   }
 
   .footer {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -347,7 +344,7 @@ footer img {
     width: 200%;
     position: relative;
     left: -35px;
-    transform: translateY(-160px);
+    transform: translateY(-185px);
     /* object-fit: contain; */
   }
 
